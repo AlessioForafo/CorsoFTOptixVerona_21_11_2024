@@ -30,3 +30,17 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- File: MyBytes/MyBytes.yaml
+- File: MyMotors/MyMotors.yaml
+- Name: Motor
+  Id: g=98414dec2f7e323d0da916105ad849aa
+  Supertype: BaseObjectType
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+- File: Folder1/Folder1.yaml
+- File: AlarmsBits/AlarmsBits.yaml

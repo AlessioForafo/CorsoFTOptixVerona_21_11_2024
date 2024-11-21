@@ -1,0 +1,12 @@
+Name: MyBytes
+Type: FolderType
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Byte
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Byte
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Byte

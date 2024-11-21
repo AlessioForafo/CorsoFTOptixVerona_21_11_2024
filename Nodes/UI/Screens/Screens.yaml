@@ -68,7 +68,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/CorsoFTOptixVerona_21_11_2024/UI/Screens/PagineLayoutPrincipale/Screen2"
+          Value: "/Objects/CorsoFTOptixVerona_21_11_2024/UI/Screens/PagineLayoutPrincipale/AliasesScreen"
           Children:
           - Name: Kind
             Type: PropertyType

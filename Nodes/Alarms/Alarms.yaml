@@ -1,3 +1,203 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=70644643538ee7e7937d3f369c362bbc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3b197499349192bfc4eff20f19957249
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f4d460949c5793ea80d4411c5fe27bd3
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=6de53c2b63cb012aa9f5818d1a1f2947
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/AlarmsBits/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=97f297b0d680c78472a46adcd5e97adc
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=645e396b495e20f1bc057c408ea98f92
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+- Name: DigitalAlarm2
+  Id: g=1fb8866be5f5086fcf83ae1055c1a704
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=64583f2ba55cf7670c70757dc85a8ea4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=175e01fcf2fe1fa393f05e9bc4fa742b
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=5e3f6a32e6281485a59c27e88457b2d1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/AlarmsBits/Variable2"
+      Children:
+      - Name: Mode
+        Id: g=45ad554596f44faaceed2582a89d0778
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0ead2629e1a1bd315a30582d0ee6b484
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=cfca96c2e57e65cb2f263124146c13c5
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+- Name: DigitalAlarm3
+  Id: g=b9b868e9246dbbf2e7104ae6a6cb0741
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3c9864e819a5adff152582150e1d446e
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=5f8f394e317a9db8729cb4ad20e73cc8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=65c5ef48d114e54fcba3305fd8f33f65
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/AlarmsBits/Variable3"
+      Children:
+      - Name: Mode
+        Id: g=ae34c38c332363afe77e997f1c88846e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=35fbd8fb839abe3e2676b861b0d062e0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=fa82b15d5f10b10c77c90a8e0b7e9834
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3

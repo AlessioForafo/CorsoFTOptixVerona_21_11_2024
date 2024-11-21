@@ -5,6 +5,10 @@ using FTOptix.System;
 using FTOptix.WebUI;
 using FTOptix.CODESYS;
 using FTOptix.CommunicationDriver;
+using FTOptix.Alarm;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.EventLogger;
 #endregion
 
 public class IncomingConnectionApprovalLogic : BaseNetLogic
